@@ -1,0 +1,49 @@
+currentItem:false
+equippedArmor:false
+blockInfo:false
+entityInfo:true
+potionStatus:true
+inventoryEffects:false
+potionColors:false
+blockRayTraceRange:5.0
+entityRayTraceRange:5.0
+enchantColor:6.0
+overrideList:false
+totalItems:true
+itemName:0
+playerNameColor:15.0
+attackDamage:true
+displayLore:true
+maxLoreLines:10.0
+armorColor:false
+showUnbreakable:true
+displayedMenu:0
+showHearts:false
+entityHearts:10.0
+showArmor:true
+fullEnchantName:true
+maxDisplayEnchantments:6.0
+entityDistance:true
+logoTexture:blocks/stone
+playMenuMusic:true
+animalInfo:false
+showOnDebug:false
+showOverlays:false
+showIcons:false
+renderCutoff:8
+maxOverlays:50
+entityTracker:false
+distanceTo:false
+showHealth:false
+witherSkeletons:false
+showWolves:false
+showEndermen:false
+namesThroughBlocks:false
+playerMaxRender:60
+maxNumberOverlays:50
+playerMode:GOOD_BAD
+element:Block Info:0:0:0:0
+element:Entity Info:0:0:0:0
+element:Equipped Item:0:0:0:0
+element:Equipped Armor:0:0:0:0
+element:Potion Status:0:0:0:0

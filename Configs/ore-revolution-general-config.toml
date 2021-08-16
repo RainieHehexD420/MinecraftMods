@@ -1,0 +1,477 @@
+
+#Scute Ore Generation
+[scute_ore]
+	#Generate Scute Ore in the world [true / false]
+	scuteOreGeneration = false
+	#Maximal height for Scute Ore pocket generation [0-200, default: 50]
+	#Range: 0 ~ 200
+	scuteOreMaxHeight = 50
+	#Chances of Scute Ore pocket being generated [0-100, default: 15]
+	#Range: 0 ~ 100
+	scuteOreChance = 10
+	#Size of Scute Ore pockets [0-200, default: 3]
+	#Range: 0 ~ 200
+	scuteOreSize = 3
+
+#Raw Beef Ore Generation
+[raw_beef_ore]
+	#Maximal height for Raw Beef Ore pocket generation [0-200, default: 60]
+	#Range: 0 ~ 200
+	rawBeefOreMaxHeight = 60
+	#Size of Raw Beef Ore pockets [0-200, default: 3]
+	#Range: 0 ~ 200
+	rawBeefOreSize = 3
+	#Generate Raw Beef Ore in the world [true / false]
+	rawBeefOreGeneration = false
+	#Chances of Raw Beef Ore pocket being generated [0-100, default: 25]
+	#Range: 0 ~ 100
+	rawBeefOreChance = 10
+
+#Raw Porkchop Ore Generation
+[raw_porkchop_ore]
+	#Generate Raw Porkchop Ore in the world [true / false]
+	rawPorkchopOreGeneration = false
+	#Size of Raw Porkchop Ore pockets [0-200, default: 3]
+	#Range: 0 ~ 200
+	rawPorkchopOreSize = 3
+	#Chances of Raw Porkchop Ore pocket being generated [0-100, default: 25]
+	#Range: 0 ~ 100
+	rawPorkchopOreChance = 10
+	#Maximal height for Raw Porkchop Ore pocket generation [0-200, default: 70]
+	#Range: 0 ~ 200
+	rawPorkchopOreMaxHeight = 70
+
+#Potato Ore Generation
+[potato_ore]
+	#Size of Potato Ore pockets [0-200, default: 3]
+	#Range: 0 ~ 200
+	potatoOreSize = 3
+	#Chances of Potato Ore pocket being generated [0-100, default: 20]
+	#Range: 0 ~ 100
+	potatoOreChance = 10
+	#Maximal height for Potato Ore pocket generation [0-200, default: 20]
+	#Range: 0 ~ 200
+	potatoOreMaxHeight = 20
+	#Generate Potato Ore in the world [true / false]
+	potatoOreGeneration = true
+
+#Firework Ore Generation
+[firework_ore]
+	#Size of Firework Ore pockets [0-200, default: 8]
+	#Range: 0 ~ 200
+	fireworkOreSize = 6
+	#Maximal height for Firework Ore pocket generation [0-200, default: 45]
+	#Range: 0 ~ 200
+	fireworkOreMaxHeight = 45
+	#Chances of Firework Ore pocket being generated [0-100, default: 45]
+	#Range: 0 ~ 100
+	fireworkOreChance = 10
+	#Generate Firework Ore in the world [true / false]
+	fireworkOreGeneration = false
+
+#Apple Ore Generation
+[apple_ore]
+	#Maximal height for Apple Ore pocket generation [0-200, default: 70]
+	#Range: 0 ~ 200
+	appleOreMaxHeight = 70
+	#Chances of Apple Ore pocket being generated [0-100, default: 10]
+	#Range: 0 ~ 100
+	appleOreChance = 10
+	#Generate Apple Ore in the world [true / false]
+	appleOreGeneration = true
+	#Size of Apple Ore pockets [0-200, default: 5]
+	#Range: 0 ~ 200
+	appleOreSize = 5
+
+#Ender Pearl Ore Generation
+[ender_pearl_ore]
+	#Maximal height for Ender Pearl Ore pocket generation [0-200, default: 30]
+	#Range: 0 ~ 200
+	enderPearlOreMaxHeight = 30
+	#Size of Ender Pearl Ore pockets [0-200, default: 4]
+	#Range: 0 ~ 200
+	enderPearlOreSize = 4
+	#Chances of Ender Pearl Ore pocket being generated [0-100, default: 25]
+	#Range: 0 ~ 100
+	enderPearlOreChance = 5
+	#Generate Ender Pearl Ore in the world [true / false]
+	enderPearlOreGeneration = true
+
+#Experience Ore Generation
+[experience_ore]
+	#Chances of Experience Ore pocket being generated [0-100, default: 10]
+	#Range: 0 ~ 100
+	experienceOreChance = 5
+	#Size of Experience Ore pockets [0-200, default: 5]
+	#Range: 0 ~ 200
+	experienceOreSize = 5
+	#Generate Experience Ore in the world [true / false]
+	experienceOreGeneration = true
+	#Maximal height for Experience Ore pocket generation [0-200, default: 12]
+	#Range: 0 ~ 200
+	experienceOreMaxHeight = 12
+
+#Cookie Ore Generation
+[cookie_ore]
+	#Chances of Cookie Ore pocket being generated [0-100, default: 18]
+	#Range: 0 ~ 100
+	cookieOreChance = 5
+	#Generate Cookie Ore in the world [true / false]
+	cookieOreGeneration = true
+	#Size of Cookie Ore pockets [0-200, default: 6]
+	#Range: 0 ~ 200
+	cookieOreSize = 6
+	#Maximal height for Cookie Ore pocket generation [0-200, default: 80]
+	#Range: 0 ~ 200
+	cookieOreMaxHeight = 80
+
+#Bone Ore Generation
+[bone_ore]
+	#Size of Bone Ore pockets [0-200, default: 10]
+	#Range: 0 ~ 200
+	boneOreSize = 10
+	#Chances of Bone Ore pocket being generated [0-100, default: 75]
+	#Range: 0 ~ 100
+	boneOreChance = 20
+	#Maximal height for Bone Ore pocket generation [0-200, default: 100]
+	#Range: 0 ~ 200
+	boneOreMaxHeight = 100
+	#Generate Bone Ore in the world [true / false]
+	boneOreGeneration = true
+
+#Nautilus Shell Ore Generation
+[nautilus_shell_ore]
+	#Generate Nautilus Shell Ore in the world [true / false]
+	nautilusShellOreGeneration = true
+	#Maximal height for Nautilus Shell Ore pocket generation [0-200, default: 45]
+	#Range: 0 ~ 200
+	nautilusShellOreMaxHeight = 45
+	#Size of Nautilus Shell Ore pockets [0-200, default: 4]
+	#Range: 0 ~ 200
+	nautilusShellOreSize = 4
+	#Chances of Nautilus Shell Ore pocket being generated [0-100, default: 30]
+	#Range: 0 ~ 100
+	nautilusShellOreChance = 10
+
+#Slimeball Ore Generation
+[slime_ball_ore]
+	#Generate Slimeball Ore in the world [true / false]
+	slimeballOreGeneration = true
+	#Size of Slimeball Ore pockets [0-200, default: 4]
+	#Range: 0 ~ 200
+	slimeballOreSize = 4
+	#Maximal height for Slimeball Ore pocket generation [0-200, default: 80]
+	#Range: 0 ~ 200
+	slimeballOreMaxHeight = 80
+	#Chances of Slimeball Ore pocket being generated [0-100, default: 30]
+	#Range: 0 ~ 100
+	slimeballOreChance = 10
+
+#Nether Star Ore Generation
+[nether_star_ore]
+	#Size of Nether Star Ore pockets [0-1, default: 1]
+	#Range: 0 ~ 200
+	netherStarOreSize = 1
+	#Generate Nether Star Ore in the world [true / false]
+	netherStarOreGeneration = true
+	#Chances of Nether Star Ore pocket being generated [0-200, default: 15]
+	#Range: 0 ~ 100
+	netherStarOreChance = 1
+	#Maximal height for Nether Star Ore pocket generation [0-200, default: 15]
+	#Range: 0 ~ 200
+	netherStarOreMaxHeight = 15
+
+#Heart Sea Ore Generation
+[heart_sea_ore]
+	#Generate Heart Sea Ore in the world [true / false]
+	heartSeaOreGeneration = true
+	#Size of Heart Sea Ore pockets [0-200, default: 1]
+	#Range: 0 ~ 200
+	heartSeaOreSize = 1
+	#Maximal height for Heart Sea Ore pocket generation [0-200, default: 8]
+	#Range: 0 ~ 200
+	heartSeaOreMaxHeight = 8
+	#Chances of Heart Sea Ore pocket being generated [0-100, default: 15]
+	#Range: 0 ~ 100
+	heartSeaOreChance = 1
+
+#Arrow Ore Generation
+[arrow_ore]
+	#Size of Arrow Ore pockets [0-200, default: 10]
+	#Range: 0 ~ 200
+	arrowOreSize = 10
+	#Generate Arrow Ore in the world [true / false]
+	arrowOreGeneration = true
+	#Chances of Arrow Ore pocket being generated [0-100, default: 75]
+	#Range: 0 ~ 100
+	arrowOreChance = 15
+	#Maximal height for Arrow Ore pocket generation [0-200, default: 100]
+	#Range: 0 ~ 200
+	arrowOreMaxHeight = 100
+
+#Phantom Membrane Ore Generation
+[phantom_membrane_ore]
+	#Chances of Phantom Membrane Ore pocket being generated [0-100, default: 44]
+	#Range: 0 ~ 100
+	phantomMembraneOreChance = 5
+	#Generate Phantom Membrane Ore in the world [true / false]
+	phantomMembraneOreGeneration = true
+	#Size of Phantom Membrane Ore pockets [0-200, default: 3]
+	#Range: 0 ~ 200
+	phantomMembraneOreSize = 3
+	#Maximal height for Phantom Membrane Ore pocket generation [0-200, default: 30]
+	#Range: 0 ~ 200
+	phantomMembraneOreMaxHeight = 30
+
+#Enchanted Golden Apple Ore Generation
+[enchanted_golden_apple_ore]
+	#Size of Enchanted Golden Apple Ore pockets [0-200, default: 1]
+	#Range: 0 ~ 200
+	enchantedGoldenAppleOreSize = 1
+	#Maximal height for Enchanted Golden Apple Ore pocket generation [0-200, default: 9]
+	#Range: 0 ~ 200
+	enchantedGoldenAppleOreMaxHeight = 9
+	#Generate Enchanted Golden Apple Ore in the world [true / false]
+	enchantedGoldenAppleOreGeneration = true
+	#Chances of Enchanted Golden Apple Ore pocket being generated [0-100, default: 15]
+	#Range: 0 ~ 100
+	enchantedGoldenAppleOreChance = 5
+
+#String Ore Generation
+[string_ore]
+	#Maximal height for String Ore pocket generation [0-200, default: 80]
+	#Range: 0 ~ 200
+	stringOreMaxHeight = 80
+	#Generate String Ore in the world [true / false]
+	stringOreGeneration = true
+	#Chances of String Ore pocket being generated [0-100, default: 30]
+	#Range: 0 ~ 100
+	stringOreChance = 5
+	#Size of String Ore pockets [0-200, default: 4]
+	#Range: 0 ~ 200
+	stringOreSize = 4
+
+#Ender Eye Ore Generation
+[ender_eye_ore]
+	#Maximal height for Ender Eye Ore pocket generation [0-200, default: 10]
+	#Range: 0 ~ 200
+	enderEyeOreMaxHeight = 10
+	#Size of Ender Eye Ore pockets [0-200, default: 2]
+	#Range: 0 ~ 200
+	enderEyeOreSize = 2
+	#Chances of Ender Eye Ore pocket being generated [0-100, default: 20]
+	#Range: 0 ~ 100
+	enderEyeOreChance = 20
+	#Generate Ender Eye Ore in the world [true / false]
+	enderEyeOreGeneration = false
+
+#Cake Ore Generation
+[cake_ore]
+	#Maximal height for Cake Ore pocket generation [0-200, default: 20]
+	#Range: 0 ~ 200
+	cakeOreMaxHeight = 20
+	#Generate Cake Ore in the world [true / false]
+	cakeOreGeneration = true
+	#Size of Cake Ore pockets [0-200, default: 2]
+	#Range: 0 ~ 200
+	cakeOreSize = 2
+	#Chances of Cake Ore pocket being generated [0-100, default: 15]
+	#Range: 0 ~ 100
+	cakeOreChance = 5
+
+#Raw Salmon Ore Generation
+[raw_salmon_ore]
+	#Generate Raw Salmon Ore in the world [true / false]
+	rawSalmonOreGeneration = false
+	#Maximal height for Raw Salmon Ore pocket generation [0-200, default: 40]
+	#Range: 0 ~ 200
+	rawSalmonOreMaxHeight = 40
+	#Chances of Raw Salmon Ore pocket being generated [0-100, default: 25]
+	#Range: 0 ~ 100
+	rawSalmonOreChance = 10
+	#Size of Raw Salmon Ore pockets [0-200, default: 3]
+	#Range: 0 ~ 200
+	rawSalmonOreSize = 3
+
+#Blaze Ore Generation
+[blaze_ore]
+	#Generate Blaze Ore in the world [true / false]
+	blazeOreGeneration = true
+	#Maximal height for Blaze Ore pocket generation [0-200, default: 30]
+	#Range: 0 ~ 200
+	blazeOreMaxHeight = 30
+	#Size of Blaze Ore pockets [0-200, default: 4]
+	#Range: 0 ~ 200
+	blazeOreSize = 3
+	#Chances of Blaze Ore pocket being generated [0-100, default: 25]
+	#Range: 0 ~ 100
+	blazeOreChance = 5
+
+#Carrot Ore Generation
+[carrot_ore]
+	#Generate Carrot Ore in the world [true / false]
+	carrotOreGeneration = true
+	#Maximal height for Carrot Ore pocket generation [0-200, default: 100]
+	#Range: 0 ~ 200
+	carrotOreMaxHeight = 100
+	#Size of Carrot Ore pockets [0-200, default: 3]
+	#Range: 0 ~ 200
+	carrotOreSize = 3
+	#Chances of Carrot Ore pocket being generated [0-100, default: 25]
+	#Range: 0 ~ 100
+	carrotOreChance = 5
+
+#Gunpowder Ore Generation
+[gunpowder_ore]
+	#Generate Gunpowder Ore in the world [true / false]
+	gunpowderOreGeneration = true
+	#Maximal height for Gunpowder Ore pocket generation [0-200, default: 60]
+	#Range: 0 ~ 200
+	gunpowderOreMaxHeight = 60
+	#Size of Gunpowder Ore pockets [0-200, default: 6]
+	#Range: 0 ~ 200
+	gunpowderOreSize = 5
+	#Chances of Gunpowder Ore pocket being generated [0-100, default: 33]
+	#Range: 0 ~ 100
+	gunpowderOreChance = 20
+
+#Melon Slice Ore Generation
+[melon_slice_ore]
+	#Size of Melon Slice Ore pockets [0-200, default: 2]
+	#Range: 0 ~ 200
+	melonSliceOreSize = 2
+	#Chances of Melon Slice Ore pocket being generated [0-100, default: 25]
+	#Range: 0 ~ 100
+	melonSliceOreChance = 10
+	#Generate Melon Slice Ore in the world [true / false]
+	melonSliceOreGeneration = false
+	#Maximal height for Melon Slice Ore pocket generation [0-200, default: 30]
+	#Range: 0 ~ 200
+	melonSliceOreMaxHeight = 30
+
+#Acacia Log Ore Generation
+[alog_ore]
+	#Generate Acacia Log Ore in the world [true / false]
+	acaciaLogOreGeneration = true
+	#Size of Acacia Log Ore pockets [0-200, default: 4]
+	#Range: 0 ~ 200
+	acaciaLogOreSize = 4
+	#Chances of Acacia Log Ore pocket being generated [0-100, default: 30]
+	#Range: 0 ~ 100
+	acaciaLogOreChance = 10
+	#Maximal height for Acacia Log Ore pocket generation [0-200, default: 45]
+	#Range: 0 ~ 200
+	acaciaLogOreMaxHeight = 45
+
+#Birch Log Ore Generation
+[blog_ore]
+	#Generate Birch Log Ore in the world [true / false]
+	birchLogOreGeneration = true
+	#Size of Birch Log Ore pockets [0-200, default: 4]
+	#Range: 0 ~ 200
+	birchLogOreSize = 4
+	#Chances of Birch Log Ore pocket being generated [0-100, default: 30]
+	#Range: 0 ~ 100
+	birchLogOreChance = 10
+	#Maximal height for Birch Log Ore pocket generation [0-200, default: 45]
+	#Range: 0 ~ 200
+	birchLogOreMaxHeight = 45
+
+#Crimson Stem Ore Generation
+[cstem_ore]
+	#Generate Crimson Stem Ore in the world [true / false]
+	crimsonStemOreGeneration = true
+	#Size of Crimson Stem Ore pockets [0-200, default: 4]
+	#Range: 0 ~ 200
+	crimsonStemOreSize = 4
+	#Chances of Crimson Stem Ore pocket being generated [0-100, default: 30]
+	#Range: 0 ~ 100
+	crimsonStemOreChance = 10
+	#Maximal height for Crimson Stem Ore pocket generation [0-200, default: 30]
+	#Range: 0 ~ 200
+	crimsonStemOreMaxHeight = 30
+
+#Dark Oak Log Ore Generation
+[dlog_ore]
+	#Generate Dark Oak Log Ore in the world [true / false]
+	darkOakLogOreGeneration = true
+	#Size of Dark Oak Log Ore pockets [0-200, default: 4]
+	#Range: 0 ~ 200
+	darkOakLogOreSize = 4
+	#Chances of Dark Oak Log Ore pocket being generated [0-100, default: 30]
+	#Range: 0 ~ 100
+	darkOakLogOreChance = 10
+	#Maximal height for Dark Oak Log Ore pocket generation [0-200, default: 45]
+	#Range: 0 ~ 200
+	darkOakLogOreMaxHeight = 45
+
+#Jungle Log Ore Generation
+[jlog_ore]
+	#Generate Jungle Log Ore in the world [true / false]
+	jungleLogOreGeneration = true
+	#Size of Jungle Log Ore pockets [0-200, default: 4]
+	#Range: 0 ~ 200
+	jungleLogOreSize = 4
+	#Chances of Jungle Log Ore pocket being generated [0-100, default: 30]
+	#Range: 0 ~ 100
+	jungleLogOreChance = 10
+	#Maximal height for Jungle Log Ore pocket generation [0-200, default: 45]
+	#Range: 0 ~ 200
+	jungleLogOreMaxHeight = 45
+
+#Oak Log Ore Generation
+[olog_ore]
+	#Generate Oak Log Ore in the world [true / false]
+	oakLogOreGeneration = true
+	#Size of Oak Log Ore pockets [0-200, default: 4]
+	#Range: 0 ~ 200
+	oakLogOreSize = 4
+	#Chances of Oak Log Ore pocket being generated [0-100, default: 30]
+	#Range: 0 ~ 100
+	oakLogOreChance = 10
+	#Maximal height for Oak Log Ore pocket generation [0-200, default: 45]
+	#Range: 0 ~ 200
+	oakLogOreMaxHeight = 45
+
+#Spruce Log Ore Generation
+[slog_ore]
+	#Generate Spruce Log Ore in the world [true / false]
+	spruceLogOreGeneration = true
+	#Size of Spruce Log Ore pockets [0-200, default: 4]
+	#Range: 0 ~ 200
+	spruceLogOreSize = 4
+	#Chances of Spruce Log Ore pocket being generated [0-100, default: 30]
+	#Range: 0 ~ 100
+	spruceLogOreChance = 10
+	#Maximal height for Spruce Log Ore pocket generation [0-200, default: 45]
+	#Range: 0 ~ 200
+	spruceLogOreMaxHeight = 45
+
+#Warped Stem Ore Generation
+[wstem_ore]
+	#Generate Warped Stem Ore in the world [true / false]
+	warpedStemOreGeneration = false
+	#Size of Warped Stem Ore pockets [0-200, default: 4]
+	#Range: 0 ~ 200
+	warpedStemOreSize = 4
+	#Chances of Warped Stem Ore pocket being generated [0-100, default: 30]
+	#Range: 0 ~ 100
+	warpedStemOreChance = 30
+	#Maximal height for Warped Stem Ore pocket generation [0-200, default: 30]
+	#Range: 0 ~ 200
+	warpedStemOreMaxHeight = 30
+
+#Quartz Ore Generation
+[quartz_ore]
+	#Generate Quartz Ore in the world [true / false]
+	quartzOreGeneration = true
+	#Size of Quartz Ore pockets [0-200, default: 4]
+	#Range: 0 ~ 200
+	quartzOreSize = 4
+	#Chances of Quartz Ore pocket being generated [0-100, default: 30]
+	#Range: 0 ~ 100
+	quartzOreChance = 5
+	#Maximal height for Quartz Ore pocket generation [0-200, default: 45]
+	#Range: 0 ~ 200
+	quartzOreMaxHeight = 45
+
