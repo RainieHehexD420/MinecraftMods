@@ -100,18 +100,18 @@
 
 	[mob.damage]
 		#The maximum extra attack damage a mob can receive
-		maxBoost = 10.0
+		maxBoost = 20.0
 		#How rapidly mob attack damage rises with difficulty (0 = no damage boost)
 		boostScale = 0.1
 
 	#Chance for mobs to receive a random potion effect (assuming their difficulty is high enough)
 	[mob.potionChance]
-		hostile = 0.25
+		hostile = 0.35
 		peaceful = 0.025
 
 	[mob.xp]
 		#Xp scaling multiplied by difficulty - xp scale of 0.1 with difficulty 10 will give about 11x more xp
-		Boost = 0.02
+		Boost = 0.03
 
 	#Mob health settings
 	[mob.health]
@@ -208,7 +208,7 @@
 		levelCost = 1
 		#The amount of additional health restored by heart crystals.
 		#Heart crystals always restore the amount of health they add, this is a bonus
-		healthRestored = 4.0
+		healthRestored = 1.0
 		#How much hearts a player will gain using a heart crystal.
 		healthBoost = 1
 
@@ -271,14 +271,14 @@
 	#minHealth -- Minimum health required for regen to be active
 	#maxHealth -- Maximum health at which regen will be active
 	[player.regen]
-		minFood = 4
+		minFood = 6
 		exhaustion = 0.25
 		minHealth = 0
 		maxHealth = 2147483647
 		proportionalToMaxHealth = false
-		initialDelay = 4.0
+		initialDelay = 6.0
 		maxFood = 2147483647
-		tickDelay = 8.0
+		tickDelay = 10.0
 		enabled = true
 
 	[player.health]

@@ -101,7 +101,7 @@
 [experience_ore]
 	#Chances of Experience Ore pocket being generated [0-100, default: 10]
 	#Range: 0 ~ 100
-	experienceOreChance = 5
+	experienceOreChance = 15
 	#Size of Experience Ore pockets [0-200, default: 5]
 	#Range: 0 ~ 200
 	experienceOreSize = 5
@@ -109,7 +109,7 @@
 	experienceOreGeneration = true
 	#Maximal height for Experience Ore pocket generation [0-200, default: 12]
 	#Range: 0 ~ 200
-	experienceOreMaxHeight = 12
+	experienceOreMaxHeight = 40
 
 #Cookie Ore Generation
 [cookie_ore]
