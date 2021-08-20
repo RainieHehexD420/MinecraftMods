@@ -277,7 +277,7 @@
 #Enable Dragon Armor Void Protect - immune to /kill command
 [dragon_armor_void]
 	#Enable Dragon Armor Void Protection [true / false]
-	enableDragonArmorVoidProtection = false
+	enableDragonArmorVoidProtection = true
 
 #Dragon Egg With Every Kill
 [dragon_egg_kill]

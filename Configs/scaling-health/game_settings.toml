@@ -11,7 +11,7 @@
 	#Ignore the Y-axis in difficulty calculations
 	ignoreYAxis = true
 	#The maximum difficulty value a player can have.
-	maxValue = 100.0
+	maxValue = 200.0
 	#Distance-based area modes will multiply distance by this value to get difficulty
 	distanceFactor = 0.002
 	#EvalEx expression: A multiplier for area difficulty calculations, typically based on the number of players in the search radius.
@@ -44,7 +44,7 @@
 	#Mix of WEIGHTED_AVERAGE and DISTANCE_FROM_SPAWN. Difficulty increases with time but also with distance
 	#SERVER_WIDE:
 	#Difficulty tracked at the server level. Player difficulty is irrelevant.
-	areaMode = "MIN_LEVEL"
+	areaMode = "AVERAGE"
 	#Distance to look for difficulty sources (players) when calculating area difficulty.
 	searchRadius = 256
 	#The initial player difficulty value for newly spawned players.
@@ -276,9 +276,9 @@
 		minHealth = 0
 		maxHealth = 2147483647
 		proportionalToMaxHealth = false
-		initialDelay = 6.0
+		initialDelay = 7.0
 		maxFood = 2147483647
-		tickDelay = 10.0
+		tickDelay = 7.0
 		enabled = true
 
 	[player.health]
@@ -290,7 +290,7 @@
 		minHealth = 10
 		#The highest max health a player can reach, not considering the vanilla
 		# health cap and modifiers from other sources. 0 means 'unlimited'.
-		maxHealth = 200
+		maxHealth = 500
 
 		#settings for hp scaling by xp level
 		[player.health.xp]

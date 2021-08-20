@@ -2,28 +2,28 @@
 [item]
 	#Attack damage of the Sword of Gluttony.
 	#Range: 0.0 ~ 1000.0
-	gluttonybasedamage = 29.0
+	gluttonybasedamage = 20.0
 	#Ability damage of the Sword of Gluttony.
 	#Range: 0.0 ~ 1000.0
 	gluttonyabilitydamage = 10.0
 	#Attack damage of the Sword of Gluttony.
 	#Range: 0.0 ~ 1000.0
-	darkbasedamage = 28.0
+	darkbasedamage = 20.0
 	#Attack damage of the Dawnbringer.
 	#Range: 0.0 ~ 1000.0
-	dawnbasedamage = 37.0
+	dawnbasedamage = 26.0
 	#Attack damage of the Dragon Blade.
 	#Range: 0.0 ~ 1000.0
-	dragonbasedamage = 32.0
+	dragonbasedamage = 22.0
 	#Attack damage of the Sword of Unending Fire.
 	#Range: 0.0 ~ 1000.0
-	unendingfbasedamage = 20.0
+	unendingfbasedamage = 14.0
 	#Attack damage of the Energy Blade.
 	#Range: 0.0 ~ 1000.0
-	ebbasedamage = 21.0
+	ebbasedamage = 15.0
 	#Attack damage of the Charged Energy Blade.
 	#Range: 0.0 ~ 1000.0
-	ebcbasedamage = 25.0
+	ebcbasedamage = 18.0
 	#Attack damage of the Sword of Hell.
 	#Range: 0.0 ~ 1000.0
 	hellswordbasedamage = 13.0
@@ -35,16 +35,16 @@
 	swordofinsanitybasedamage = 13.0
 	#Attack damage of the Cloaked Wrath.
 	#Range: 0.0 ~ 1000.0
-	cloakedwrathbasedamage = 17.5
+	cloakedwrathbasedamage = 13.0
 	#Attack damage of the Divine Tools.
 	#Range: 0.0 ~ 1000.0
-	divinebasedamage = 30.0
+	divinebasedamage = 21.0
 	#Attack damage of the Starforge-Voidforge.
 	#Range: 0.0 ~ 1000.0
-	starfvoidfbasedamage = 44.0
+	starfvoidfbasedamage = 31.0
 	#Ability damage of the Starforge-Voidforge.
 	#Range: 0.0 ~ 1000.0
-	starfvoidfabilitydamage = 40.0
+	starfvoidfabilitydamage = 28.0
 	#Base attack damage of the items that are made of steel.
 	#Range: 0.0 ~ 1000.0
 	steelbasedamage = 12.0
@@ -56,22 +56,22 @@
 	poweredbattleaxeabilitydamage = 10.0
 	#Attack damage of the Planet Eater.
 	#Range: 0.0 ~ 1000.0
-	planeteaterbasedamage = 46.0
+	planeteaterbasedamage = 32.0
 	#Ability damage of the Planet Eater.
 	#Range: 0.0 ~ 1000.0
-	planeteaterabilitydamage = 50.0
+	planeteaterabilitydamage = 30.0
 	#Attack damage of the Essence Shrieker.
 	#Range: 0.0 ~ 1000.0
-	godslayerbasedamage = 56.0
+	godslayerbasedamage = 39.0
 	#Ability damage of the Essence Shrieker.
 	#Range: 0.0 ~ 1000.0
-	godslayerabilitydamage = 65.0
+	godslayerabilitydamage = 40.0
 	#Attack damage of the Death Scythe.
 	#Range: 0.0 ~ 1000.0
-	deathbasedamage = 60.0
+	deathbasedamage = 42.0
 	#Ability damage of the Death Scythe.
 	#Range: 0.0 ~ 1000.0
-	deathabilitydamage = 40.0
+	deathabilitydamage = 20.0
 	#Attack damage of the Blaze Sword.
 	#Range: 0.0 ~ 1000.0
 	blazebasedamage = 8.0
