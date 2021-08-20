@@ -1,0 +1,1402 @@
+
+#Please be advised that certain thirst-related options are world-specific and are located in <Path to your world folder>/serverconfig/toughasnails-server.toml.
+[general]
+	#The threshold at which exhaustion causes a reduction in hydration and the thirst bar.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	exhaustion_threshold = 8.0
+
+[drink_options]
+	#Thirst restored from drinking with hands.
+	#Range: 0 ~ 20
+	hand_drinking_thirst = 1
+	#Hydration restored from drinking with hands.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	hand_drinking_hydration = 0.1
+
+	#Effects of drinks from Vanilla, Tough As Nails and other mods.
+	[[drink_options.drink_entries]]
+		location = "minecraft:potion"
+		thirst = 3
+		hydration = 0.2
+		poison_chance = 0.25
+
+	[[drink_options.drink_entries]]
+		location = "toughasnails:dirty_water_bottle"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.75
+
+	[[drink_options.drink_entries]]
+		location = "toughasnails:dirty_water_canteen"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.75
+
+	[[drink_options.drink_entries]]
+		location = "toughasnails:purified_water_bottle"
+		thirst = 4
+		hydration = 0.4
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "toughasnails:purified_water_canteen"
+		thirst = 3
+		hydration = 0.4
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "toughasnails:water_canteen"
+		thirst = 2
+		hydration = 0.2
+		poison_chance = 0.25
+
+	[[drink_options.drink_entries]]
+		location = "minecraft:melon_slice"
+		thirst = 2
+		hydration = 0.3
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "minecraft:apple"
+		thirst = 1
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "minecraft:glistering_melon_slice"
+		thirst = 5
+		hydration = 0.5
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "minecraft:sweet_berries"
+		thirst = 1
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "minecraft:golden_apple"
+		thirst = 3
+		hydration = 0.3
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "minecraft:enchanted_golden_apple"
+		thirst = 5
+		hydration = 0.4
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "minecraft:beetroot_soup"
+		thirst = 3
+		hydration = 0.3
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "farmersdelight:tomato"
+		thirst = 2
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "farmersdelight:milk_bottle"
+		thirst = 2
+		hydration = 0.4
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "farmersdelight:hot_cocoa"
+		thirst = 3
+		hydration = 0.4
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "farmersdelight:beef_stew"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "farmersdelight:chicken_soup"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "farmersdelight:vegetable_soup"
+		thirst = 1
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "farmersdelight:fish_stew"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "farmersdelight:pumpkin_soup"
+		thirst = 3
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "farmersdelight:baked_cod_stew"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "farmersdelight:noodle_soup"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:apricot"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:blackberries"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:blueberries"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:cactus_fruit"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.8
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:cantaloupoe"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:cherries"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:grapes"
+		thirst = 1
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:honeydew"
+		thirst = 1
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:mango"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:orange"
+		thirst = 1
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:raspberries"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:strawberries"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:tomato"
+		thirst = 2
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:beer"
+		thirst = 4
+		hydration = 0.2
+		poison_chance = 0.3
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:cauim"
+		thirst = 5
+		hydration = 0.2
+		poison_chance = 0.6
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:cider"
+		thirst = 5
+		hydration = 0.2
+		poison_chance = 0.3
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:mead"
+		thirst = 4
+		hydration = 0.2
+		poison_chance = 0.2
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:sake"
+		thirst = 4
+		hydration = 0.2
+		poison_chance = 0.1
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:tiswin"
+		thirst = 5
+		hydration = 0.3
+		poison_chance = 0.4
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:vodka"
+		thirst = 3
+		hydration = 0.4
+		poison_chance = 0.5
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:whiskey"
+		thirst = 4
+		hydration = 0.4
+		poison_chance = 0.5
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:wine"
+		thirst = 4
+		hydration = 0.4
+		poison_chance = 0.5
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:borscht"
+		thirst = 2
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:broccoli_cheese_soup"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:carrot_soup"
+		thirst = 3
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:chicken_noodle_soup"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:cucumber_soup"
+		thirst = 2
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:onion_soup"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:pea_soup"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:pumpkin_soup"
+		thirst = 2
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:radish_soup"
+		thirst = 2
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:squash_soup"
+		thirst = 2
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "simplefarming:tomato_soup"
+		thirst = 3
+		hydration = 0.3
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:soymilkitem"
+		thirst = 4
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:cherrysodaitem"
+		thirst = 6
+		hydration = 0.1
+		poison_chance = 0.1
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:colasodaitem"
+		thirst = 6
+		hydration = 0.1
+		poison_chance = 0.1
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:energydrinkitem"
+		thirst = 4
+		hydration = 0.3
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:gingersodaitem"
+		thirst = 6
+		hydration = 0.1
+		poison_chance = 0.1
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:grapefruitsodaitem"
+		thirst = 6
+		hydration = 0.1
+		poison_chance = 0.1
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:grapesodaitem"
+		thirst = 6
+		hydration = 0.1
+		poison_chance = 0.1
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:lemonlimesodaitem"
+		thirst = 6
+		hydration = 0.1
+		poison_chance = 0.1
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:orangesodaitem"
+		thirst = 6
+		hydration = 0.1
+		poison_chance = 0.1
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:rootbeerfloatitem"
+		thirst = 4
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:rootbeersodaitem"
+		thirst = 4
+		hydration = 0.1
+		poison_chance = 0.1
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:strawberrysodaitem"
+		thirst = 6
+		hydration = 0.1
+		poison_chance = 0.1
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:carrotjuiceitem"
+		thirst = 5
+		hydration = 0.4
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:chocolatemilkitem"
+		thirst = 4
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:blackberryjuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:blueberryjuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:cactusfruitjuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.1
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:candleberryjuiceitem"
+		thirst = 5
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:cranberryjuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:elderberryjuiceitem"
+		thirst = 8
+		hydration = 0.3
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:huckleberryjuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:juniperberryjuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:mulberryjuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:raspberryjuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:strawberryjuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:cantaloupejuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:grapejuiceitem"
+		thirst = 8
+		hydration = 0.3
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:greengrapejuiceitem"
+		thirst = 8
+		hydration = 0.3
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:kiwijuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:pineapplejuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:cherryjuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:orangejuiceitem"
+		thirst = 8
+		hydration = 0.3
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:peachjuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:pearjuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:plumjuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:pawpawjuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:soursopjuiceitem"
+		thirst = 6
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:apricotjuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:bananajuiceitem"
+		thirst = 5
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:datejuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:dragonfruitjuiceitem"
+		thirst = 8
+		hydration = 0.3
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:figjuiceitem"
+		thirst = 5
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:grapefruitjuiceitem"
+		thirst = 6
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:mangojuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:papayajuiceitem"
+		thirst = 6
+		hydration = 0.3
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:persimmonjuiceitem"
+		thirst = 6
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:pomegranatejuiceitem"
+		thirst = 6
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:starfruitjuiceitem"
+		thirst = 5
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:breadfruitjuiceitem"
+		thirst = 5
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:jackfruitjuiceitem"
+		thirst = 5
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:guavajuiceitem"
+		thirst = 8
+		hydration = 0.1
+		poison_chance = 0.1
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:lycheejuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:passionfruitjuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:rambutanjuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:tamarindjuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:gooseberryjuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:durianjuiceitem"
+		thirst = 4
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:lemonjuiceitem"
+		thirst = 2
+		hydration = 0.9
+		poison_chance = 0.8
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:limejuiceitem"
+		thirst = 2
+		hydration = 0.7
+		poison_chance = 0.5
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:blackberrysmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:blueberrysmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:cactusfruitsmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.1
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:candleberrysmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:cranberrysmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:elderberrysmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:huckleberrysmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:juniperberrysmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:mulberrysmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:raspberrysmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:strawberrysmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:cantaloupesmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:grapesmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:greengrapesmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:kiwismoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:pineapplesmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:cherrysmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:orangesmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:peachsmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:grapefruitsmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:mangosmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:papayasmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:persimmonsmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:pomegranatesmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:starfruitsmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:breadfruitsmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:jackfruitsmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:guavasmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:lycheesmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:passionfruitsmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:rambutansmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:tamarindsmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:gooseberrysmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:duriansmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:lemonsmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodextended:limesmoothieitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "enigmaticlegacy:unholy_grail"
+		thirst = 20
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2trees:pamapple"
+		thirst = 1
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2trees:pamcherry"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2trees:pamlemon"
+		thirst = 1
+		hydration = 0.4
+		poison_chance = 0.3
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2trees:pamorange"
+		thirst = 1
+		hydration = 0.3
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2trees:pampeach"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2trees:pamdragonfruit"
+		thirst = 2
+		hydration = 0.3
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2trees:pamapricot"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2trees:cherryitem"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2trees:orangeitem"
+		thirst = 1
+		hydration = 0.3
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2trees:peachitem"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2trees:apricotitem"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2trees:dragonfruititem"
+		thirst = 2
+		hydration = 0.3
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "betteranimalsplus:goatmilk"
+		thirst = 6
+		hydration = 0.4
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "mysticalagradditions:inferium_apple"
+		thirst = 3
+		hydration = 0.4
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "mysticalagradditions:prudentium_apple"
+		thirst = 4
+		hydration = 0.4
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "mysticalagradditions:tertium_apple"
+		thirst = 4
+		hydration = 0.5
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "mysticalagradditions:imperium_apple"
+		thirst = 5
+		hydration = 0.5
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "mysticalagradditions:superium_apple"
+		thirst = 5
+		hydration = 0.6
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "mysticalagradditions:insanium_apple"
+		thirst = 6
+		hydration = 0.6
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2crops:cucumberitem"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2crops:tomatoitem"
+		thirst = 2
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2crops:blackberryitem"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2crops:blueberryitem"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2crops:cactusfruititem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.8
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2crops:cranberryitem"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2crops:elderberryitem"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2crops:grapeitem"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2crops:greengrapeitem"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2crops:huckleberryitem"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2crops:juniperberryitem"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2crops:mulberryitem"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2crops:pineappleitem"
+		thirst = 2
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2crops:raspberryitem"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2crops:strawberryitem"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2crops:hotteaitem"
+		thirst = 5
+		hydration = 0.5
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2crops:hotcoffeeitem"
+		thirst = 5
+		hydration = 0.5
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodcore:hotchocolateitem"
+		thirst = 4
+		hydration = 0.3
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodcore:applejuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodcore:melonjuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodcore:sweetberryjuiceitem"
+		thirst = 7
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodcore:fruitpunchitem"
+		thirst = 6
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "pamhc2foodcore:p8juiceitem"
+		thirst = 8
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "betterendforge:umbrella_cluster_juice"
+		thirst = 6
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "aoa3:nature_melon_slice"
+		thirst = 3
+		hydration = 0.3
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "aoa3:halycon_milk"
+		thirst = 8
+		hydration = 0.3
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "aoa3:lunarade"
+		thirst = 5
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "aoa3:tea"
+		thirst = 5
+		hydration = 0.5
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "aoa3:fungal_tea"
+		thirst = 5
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "aoa3:natural_tea"
+		thirst = 8
+		hydration = 0.3
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "theabyss:abyssmelon"
+		thirst = 3
+		hydration = 0.3
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "the_legency_of_villige:vegetable_soup"
+		thirst = 4
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "the_legency_of_villige:bambo_mushroom_elixir"
+		thirst = 3
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "the_legency_of_villige:mining_elixir"
+		thirst = 1
+		hydration = 0.1
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "the_legency_of_villige:ambrosia"
+		thirst = 6
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "the_legency_of_villige:glown_mushroom_soup"
+		thirst = 2
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "the_legency_of_villige:bl"
+		thirst = 2
+		hydration = 0.2
+		poison_chance = 0.0
+
+	[[drink_options.drink_entries]]
+		location = "the_legency_of_villige:gh"
+		thirst = 2
+		hydration = 0.2
+		poison_chance = 0.0
+
+
+
+
+
+
+
+
+
+
+[biome_options]
+
+	#The types of water found in biomes from Vanilla and other mods.
+	[[biome_options.biome_water_entries]]
+		location = "minecraft:swamp"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "minecraft:swamp_hills"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "minecraft:mushroom_fields"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "minecraft:mushroom_field_shore"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:bayou"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:bayou_mangrove"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:dead_swamp"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:deep_bayou"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:fungal_field"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:fungal_jungle"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:highland_moor"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:jade_cliffs"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:jade_grassland"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:ominous_mire"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:ominous_woods"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:overgrown_fungal_jungle"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:rainforest"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:rainforest_cliffs"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:rainforest_floodplain"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:silkglade"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:silkglade_nest"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:tundra_bog"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:volcanic_plains"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:volcano"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:wasteland"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:wetland"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:wetland_marsh"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:wooded_wasteland"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:alps"
+		type = "PURIFIED"
+
+	[[biome_options.biome_water_entries]]
+		location = "biomesoplenty:rainbow_hills"
+		type = "PURIFIED"
+
