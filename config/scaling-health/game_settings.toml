@@ -210,7 +210,7 @@
 		#Heart crystals always restore the amount of health they add, this is a bonus
 		healthRestored = 1.0
 		#How much hearts a player will gain using a heart crystal.
-		healthBoost = 1
+		healthBoost = 1.0
 
 	[item.enchanted_heart]
 		#Change in difficulty when an enchanted heart is used
@@ -220,7 +220,7 @@
 		#The number of levels required to use a power crystal.
 		levelCost = 1
 		#How much more damage a player deals after using a power crystal.
-		damageBoost = 0.5
+		damageBoost = 1.0
 
 	[item.chance_heart]
 		#Change in difficulty when a chance heart is used

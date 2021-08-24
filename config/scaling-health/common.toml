@@ -10,7 +10,7 @@
 	#Enable mob damage scaling.
 	mobDamageScaling = true
 	#Enable ore gen of health crystals. Still drops as loot.
-	hpCrystalsOreGen = false
+	hpCrystalsOreGen = true
 	#Enable difficulty system. If disabled, everything will have 0 difficulty.
 	enableDifficulty = true
 	#Enable player add damage by crystals.
