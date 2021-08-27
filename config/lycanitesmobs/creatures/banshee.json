@@ -39,7 +39,7 @@
   "defense": 0,
   "armor": 0,
   "speed": 32,
-  "damage": 2,
+  "damage": 3,
   "attackSpeed": 0.5,
   "rangedSpeed": 1,
   "effectDuration": 5,

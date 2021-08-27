@@ -23,7 +23,7 @@
     "biomeTags": [
       "mountain"
     ],
-    "spawnWeight": 7,
+    "spawnWeight": 3,
     "dungeonWeight": 0,
     "spawnAreaLimit": 1,
     "spawnGroupMin": 1,
@@ -37,11 +37,11 @@
   "width": 3.9,
   "height": 3.9,
   "experience": 5,
-  "health": 50,
+  "health": 40,
   "defense": 2,
-  "armor": 1,
+  "armor": 0,
   "speed": 24,
-  "damage": 4,
+  "damage": 3,
   "attackSpeed": 1,
   "rangedSpeed": 0.25,
   "effectDuration": 5,
@@ -124,7 +124,7 @@
   "flags": [
     {
       "name": "griefing",
-      "value": true
+      "value": false
     }
   ]
 }

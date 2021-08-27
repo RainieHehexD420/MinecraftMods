@@ -100,14 +100,14 @@
 
 	[mob.damage]
 		#The maximum extra attack damage a mob can receive
-		maxBoost = 20.0
+		maxBoost = 50.0
 		#How rapidly mob attack damage rises with difficulty (0 = no damage boost)
-		boostScale = 0.1
+		boostScale = 0.5
 
 	#Chance for mobs to receive a random potion effect (assuming their difficulty is high enough)
 	[mob.potionChance]
-		hostile = 0.35
-		peaceful = 0.025
+		hostile = 0.45
+		peaceful = 0.055
 
 	[mob.xp]
 		#Xp scaling multiplied by difficulty - xp scale of 0.1 with difficulty 10 will give about 11x more xp
@@ -116,7 +116,7 @@
 	#Mob health settings
 	[mob.health]
 		#This modifier affects the hp scale of mobs spawned by spawners, a normal 100 hp boost, will be of 30 using default value
-		spawner = 0.3
+		spawner = 5.0
 		#Determines how difficulty affects mob health.
 		#2 types of modes: Multiplier and additive, with 3 different multipliers.
 		#MULTI: Mob hp is multiplied, mobs with higher base hp have more increase.
@@ -139,7 +139,7 @@
 		#Notify everyone that a blight died in combat
 		notifyOnDeath = true
 		#Multiplier for blight difficulty, 2 will make blights have stats equal to 2 * current difficulty
-		blightModifier = 3.0
+		blightModifier = 4.0
 
 		[[mob.blight.potionEffects]]
 			potion = "minecraft:fire_resistance"
@@ -210,7 +210,7 @@
 		#Heart crystals always restore the amount of health they add, this is a bonus
 		healthRestored = 1.0
 		#How much hearts a player will gain using a heart crystal.
-		healthBoost = 1.0
+		healthBoost = 1
 
 	[item.enchanted_heart]
 		#Change in difficulty when an enchanted heart is used
@@ -220,7 +220,7 @@
 		#The number of levels required to use a power crystal.
 		levelCost = 1
 		#How much more damage a player deals after using a power crystal.
-		damageBoost = 1.0
+		damageBoost = 0.5
 
 	[item.chance_heart]
 		#Change in difficulty when a chance heart is used
