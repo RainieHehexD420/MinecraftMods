@@ -398,7 +398,7 @@
 		"Lich Spawn Weight" = 2
 		#Maximum hydra health
 		#Range: 1.0 ~ 10000.0
-		"Hydra Max Health" = 250.0
+		"Hydra Max Health" = 350.0
 		#True if hydra caves are allowed to generate
 		"Generate Hydra Caves" = true
 		#One out of this number chance per chunk to generate a hydra cave.
@@ -422,13 +422,13 @@
 	"Dragonsteel Sword Base Attack Strength" = 35.0
 	#Default armor value of dragonsteel chestplate.
 	#Range: > 7
-	"Dragonsteel Base Armor" = 17
+	"Dragonsteel Base Armor" = 20
 	#Default durability value of dragonsteel tools.
 	#Range: > 1
 	"Dragonsteel Base Durability" = 20000
 	#Default durability value of dragonsteel equipment.
 	#Range: > 1
-	"Dragonsteel Base Durability Equipment" =20000
+	"Dragonsteel Base Durability Equipment" = 20000
 	#Disable this to remove easter egg with tinkers installed.
 	Weezer = true
 	#Percentage of critical strike that will disarm with easter egg tinkers material.
