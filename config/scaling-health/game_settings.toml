@@ -100,9 +100,9 @@
 
 	[mob.damage]
 		#The maximum extra attack damage a mob can receive
-		maxBoost = 50.0
+		maxBoost = 35.0
 		#How rapidly mob attack damage rises with difficulty (0 = no damage boost)
-		boostScale = 0.5
+		boostScale = 0.3
 
 	#Chance for mobs to receive a random potion effect (assuming their difficulty is high enough)
 	[mob.potionChance]
